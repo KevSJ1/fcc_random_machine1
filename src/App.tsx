@@ -29,6 +29,7 @@ function App() {
 
   const changeQuote = ()=>{
     setQuote(getRandomQuote());
+    setRandomColor(getRandomColor());
   }
 
   return <div className="background" style={{backgroundColor: randomColor, transition}}>
